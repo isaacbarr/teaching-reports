@@ -1,0 +1,46 @@
+.landing-container{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.landing-text {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .heading {
+    color: #0019FA;
+    width: 600px;
+    line-height: 70px;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .sub-heading {
+
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .generate-text {
+    font-size: 20px;
+  }
+}
+
+.landing-form {
+  margin-top: 20px;
+  width: 450px;
+  height: 270px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 28px -11px 122px 3px rgba(255,255,255,0.32);
+  -webkit-box-shadow: 28px -11px 122px 3px rgba(255,255,255,0.32);
+  -moz-box-shadow: 28px -11px 122px 3px rgba(255,255,255,0.32);
+}
